@@ -3,4 +3,105 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+#card-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 540px;
+    width: 400px;
+    justify-self: center;
+    margin-top: 5rem;
+    box-shadow: 8px 8px #000;
+    border: 1px solid #000;
+}
+
+.card-image {
+    justify-self: center;
+}
+
+.card-image img {
+    border-radius: 10px;
+    margin-top: 1.7rem;
+    scale: 1.08;
+}
+
+.learning-tab {
+    background-color: hsl(47, 88%, 63%);
+    justify-content: left;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 1.6rem;
+    margin-left: 1rem;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.learning-p {
+    font-weight: 700;
+}
+
+.sub-title {
+    margin-top: .8rem;
+    margin-left: 1rem;
+}
+
+.sub-p {
+    color: #000;
+    font-size: medium;
+}
+
+.html-title {
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+.html-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.sub-p2 {
+    color: grey;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.bottom-line {
+    text-align: left;
+}
+
+.bottom-line img {
+    scale: .6;
+    padding-top: .5rem;
+    padding-left: .25rem;
+    float: left;
+}
+
+.bottom-line-p {
+    margin-top: 1.8rem;
+    font-weight: 700;
+    font-size: small;
+}
+
+
+@media screen and (max-width: 480px) {
+    #card-container {
+        margin-top: 2rem;
+    }  
+}
+
+
+
+
+
